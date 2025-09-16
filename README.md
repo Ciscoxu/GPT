@@ -55,9 +55,15 @@ vllm>=0.4.2
 ## 配置
 配置文件路径：`configs/vllm.yaml`  
 
+下载模型：
+```bash
+huggingface-cli login
+python download_model.py
+```
+
 示例：
 ```yaml
-model_name: /workspace/model/LLM-Research/Meta-Llama-3-8B-Instruct
+model_name: ./model/LLM-Research/Meta-Llama-3-8B-Instruct
 tensor_parallel_size: 1
 gpu_memory_utilization: 0.9
 max_model_len: 8192

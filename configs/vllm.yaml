@@ -1,4 +1,4 @@
-model_name: /workspace/model/LLM-Research/Meta-Llama-3-8B-Instruct
+model_name: ./model/LLM-Research/Meta-Llama-3-8B-Instruct
 tensor_parallel_size: 1
 gpu_memory_utilization: 0.9
 max_model_len: 8192
