@@ -58,7 +58,7 @@ vllm>=0.4.2
 下载模型：
 ```bash
 huggingface-cli login
-python scripts/download_model.py
+python download_model.py
 ```
 
 示例：
