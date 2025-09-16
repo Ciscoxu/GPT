@@ -69,7 +69,7 @@ trust_remote_code: true
 ### 配置路径指定
 程序会优先读取环境变量：
 ```bash
-export VLLM_CONFIG_PATH= ../GPT/configs/vllm.yaml
+export VLLM_CONFIG_PATH= ./GPT/configs/vllm.yaml
 ```
 若未设置，则默认使用 `configs/vllm.yaml`。
 
